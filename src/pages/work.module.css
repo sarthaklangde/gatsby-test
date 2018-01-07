@@ -1,0 +1,15 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.tag div {
+    display: inline-block;
+    width: auto;
+    padding: 8px 16px;
+    margin-right: 16px;
+    background-color: hsla(0,0%,0%,0.04);
+    
+}
