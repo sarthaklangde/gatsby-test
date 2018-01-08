@@ -17,8 +17,17 @@ export default ({ children }) =>
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="/">Home</ListLink>
         <ListLink to="/work/">Work</ListLink>
-        <ListLink to="/contact/">Contact</ListLink>
       </ul>
     </header>
     {children()}
+    <footer style={{ position: `fixed`, bottom: `2rem`, width: '100%', maxWidth: 850}}>
+      <div style={{ display: `flex`, justifyContent: `space-around`}}>
+        <div><a href="javascript:void(0)" >sarthak.langde@gmail.com</a></div>
+        <div><a href="https://www.linkedin.com/in/sarthaklangde/" target="_blank">Linkedin</a></div>
+        <div><a href="https://github.com/sarthaklangde" target="_blank">Github</a></div>
+        <div><a href="https://angel.co/sarthak-langde" target="_blank">Angel</a></div>
+      </div>
+      
+      
+    </footer>
   </div>
