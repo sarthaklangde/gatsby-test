@@ -20,8 +20,8 @@ export default ({ children }) =>
       </ul>
     </header>
     {children()}
-    <footer style={{ position: `fixed`, bottom: `2rem`, width: '100%', maxWidth: 850}}>
-      <div style={{ display: `flex`, justifyContent: `space-around`}}>
+    <footer style={{ marginTop: `32px`, width: '100%', margin: `0 auto`}}>
+      <div style={{ display: `flex`, justifyContent: `space-around`, flexWrap: `wrap`}}>
         <div><a href="javascript:void(0)" >sarthak.langde@gmail.com</a></div>
         <div><a href="https://www.linkedin.com/in/sarthaklangde/" target="_blank">Linkedin</a></div>
         <div><a href="https://github.com/sarthaklangde" target="_blank">Github</a></div>
