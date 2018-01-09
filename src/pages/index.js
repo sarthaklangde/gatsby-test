@@ -8,12 +8,13 @@ export default () =>
     
     <div>
       <blockquote>
-        <h2>My Beliefs</h2>
+        <h2>My Personal Beliefs</h2>
         <p>
           <ul>
-            <li>Web Development + Machine Learning  = Essential toolkit</li>
-            <li>VSCode > Atom</li>
+            <li>App Development + Machine Learning = Best Combo </li>
+            <li>Earth is round, there are limited biological genders of humans (Its 2018. Have to state it!)</li>
             <li>Function over form over function</li>
+            <li>Nothing is black and white. Everything is grey</li>
           </ul></p>
       </blockquote>
 
