@@ -6,7 +6,7 @@ export default () =>
     <h1>Hi, I am Sarthak</h1>
     <div>
       <h2>A Web and Machine Learning Ninja</h2>
-      <p className={styles.text}>I am your go-to man if you <strike>want</strike> need to build something amazing</p>
+      <p className={styles.text}>I am your go-to guy if you <strike>want</strike> need to build something amazing</p>
       <h2>2017</h2>
       <blockquote>
         <div>

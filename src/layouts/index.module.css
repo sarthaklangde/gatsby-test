@@ -1,0 +1,19 @@
+.page {
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 1.25rem 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.link {
+  margin-right: 1rem;
+}
+
+.link:last-child {
+  margin-right: 0;
+}

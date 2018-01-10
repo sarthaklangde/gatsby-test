@@ -1,15 +1,26 @@
+.workWrapper {
+  margin-top: 48px;
+}
+
+.workWrapper:first-child {
+  margin-top: inherit;
+}
+
 .heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
 }
 
 .tag div {
-    display: inline-block;
-    width: auto;
-    padding: 8px 16px;
-    margin: 16px 16px 0 0;
-    background-color: hsla(0,0%,0%,0.04);
-    
+  display: inline-block;
+  width: auto;
+  padding: 8px 16px;
+  margin: 16px 16px 0 0;
+  background-color: hsla(0,0%,0%,0.04);
+}
+
+.tag .cta {
+  background-color: #1ca086;
 }

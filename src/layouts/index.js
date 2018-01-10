@@ -1,27 +1,24 @@
 import React from "react";
 import Link from "gatsby-link";
 import Resume from "../files/Sarthak_Langde_Resume.pdf";
-
-const ListLink = props =>
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to}>
-      {props.children}
-    </Link>
-  </li>
+import style from "./index.module.css";
 
 export default ({ children }) =>
-  <div style={{ margin: `0 auto`, maxWidth: 850, padding: `1.25rem 1rem` }}>
-    <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/" style={{}}>
-        <a style={{ display: `inline` }}>Sarthak Langde</a>
-      </Link>
-      <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to="/work/">My Work</ListLink>
-        <a href={Resume} target="_blank">Download CV</a>
-      </ul>
+  <div className={style.page}>
+    <header className={style.header}>
+      <div>
+        <Link to="/">
+          <a style={{ display: `inline`}}>Sarthak Langde</a>
+        </Link>
+      </div>
+      <div>
+        <Link className={style.link} to="/work/">My Work</Link>
+        <a className={style.link} href={Resume} target="_blank">Download CV</a>
+        <a  className={style.link} href="#contact">Contact</a>
+      </div>
     </header>
     {children()}
-    <footer style={{ width: '100%', margin: `64px auto 4px`}}>
+    <footer id="contact" style={{ width: '100%', margin: `64px auto 4px`}}>
       <div style={{ display: `flex`, justifyContent: `center`, flexWrap: `wrap`}}>
         <div style={{ marginRight: `32px`}}><a href="mailto: sarthak.langde@gmail.com" >Email</a></div>
         <div style={{ marginRight: `32px`}}><a href="https://www.linkedin.com/in/sarthaklangde/" target="_blank">Linkedin</a></div>
