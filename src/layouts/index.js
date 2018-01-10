@@ -7,9 +7,7 @@ export default ({ children }) =>
   <div className={style.page}>
     <header className={style.header}>
       <div>
-        <Link to="/">
-          <a style={{ display: `inline`}}>Sarthak Langde</a>
-        </Link>
+        <Link to="/">Sarthak Langde</Link>
       </div>
       <div>
         <Link className={style.link} to="/work/">My Work</Link>
