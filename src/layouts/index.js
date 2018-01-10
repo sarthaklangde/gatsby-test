@@ -12,13 +12,12 @@ const ListLink = props =>
 export default ({ children }) =>
   <div style={{ margin: `0 auto`, maxWidth: 850, padding: `1.25rem 1rem` }}>
     <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <h3 style={{ display: `inline` }}>Sarthak Langde</h3>
+      <Link to="/" style={{}}>
+        <a style={{ display: `inline` }}>Sarthak Langde</a>
       </Link>
       <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="/work/">Work</ListLink>
-        <a href={Resume} target="_blank">Resume</a>
+        <ListLink to="/work/">My Work</ListLink>
+        <a href={Resume} target="_blank">Download CV</a>
       </ul>
     </header>
     {children()}
