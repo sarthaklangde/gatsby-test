@@ -7,15 +7,8 @@ title: "New Project: React Starter Kit"
 Initing the blog.
 
 ```javascript
-import Typography from 'typography'
-import funstonTheme from 'typography-theme-funston'
-funston.overrideThemeStyles = ({ rhythm }, options) => ({
-  'h2,h3': {
-    marginBottom: rhythm(1/2),
-    marginTop: rhythm(2),
-  }
-})
+//Hello World
 
-const typography = new Typography(funstonTheme)
+//Stay tuned for update
 
 ```

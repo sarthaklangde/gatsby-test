@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Resume from "../files/Sarthak_Langde_Resume.pdf";
 import style from "./index.module.css";
+import '../prismjs/prism.css';
 
 export default ({ children }) =>
   <div className={style.page}>
