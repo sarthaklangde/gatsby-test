@@ -14,10 +14,10 @@ export default () =>
           <p>
             <ul>
               <li>Started working @ <a href="/work">smallcase</a></li>
-              <li>Finished my Computer Engineering</li>
+              <li>Obtained a Bachelors in Computer Engineering</li>
               <li>Won Persistent Insipiration Award at the Smart India Hackathon</li>
-              <li>Started the first 24 hour hackathon at my college</li>
-              <li>Read 4 non-fiction novels, 8 light novels, and 4 mangas </li>
+              <li>Orchestrated the first 24 hour hackathon at my college</li>
+              <li>Read 4 non-fiction books, 8 light novels, and 4 mangas </li>
             </ul>
           </p>
         </div>
