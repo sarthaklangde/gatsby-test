@@ -12,7 +12,6 @@ export default () =>
           Dear, there is nothing I am trying to hide from you. You know that, right?
         </p>
       </blockquote>
-
     </div>
     
 

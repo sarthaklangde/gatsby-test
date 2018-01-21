@@ -7,11 +7,12 @@ export default ({ children }) =>
   <div className={style.page}>
     <header className={style.header}>
       <div>
-        <Link to="/">Sarthak Langde</Link>
+        <Link to="/" className={style.link}>Sarthak Langde</Link>
       </div>
       <div>
         <Link className={style.link} to="/work/">My Work</Link>
         <a className={style.link} href={Resume} target="_blank">Download CV</a>
+        <a  className={style.link} href="/blog">Blog</a>
         <a  className={style.link} href="#contact">Contact</a>
       </div>
     </header>

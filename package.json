@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "sarthak-langde",
+  "description": "Personal website by Sarthak Langde",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -10,8 +10,15 @@
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
+    "gatsby-plugin-catch-links": "^1.0.14",
+    "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-typography": "^1.7.10",
-    "typography-theme-fairy-gates": "^0.15.11"
+    "gatsby-remark-prismjs": "^1.2.12",
+    "gatsby-source-filesystem": "^1.5.12",
+    "gatsby-transformer-remark": "^1.7.28",
+    "react-helmet": "^5.2.0",
+    "typography-plugin-code": "^0.16.11",
+    "typography-theme-ocean-beach": "^0.15.11"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"

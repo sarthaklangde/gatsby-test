@@ -1,6 +1,12 @@
 import Typography from "typography";
-import fairyGates from "typography-theme-fairy-gates";
+import CodePlugin from "typography-plugin-code";
+import oceanBeach from "typography-theme-ocean-beach";
 
-const typography = new Typography(fairyGates);
+oceanBeach.plugins = [
+  new CodePlugin(),
+];
+
+const typography = new Typography(oceanBeach);
+
 
 export default typography;
