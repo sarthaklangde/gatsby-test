@@ -11,7 +11,7 @@ export default ({ children }) =>
       </div>
       <div>
         <Link className={style.link} to="/work/">My Work</Link>
-        <a className={style.link} href={Resume} target="_blank">Download CV</a>
+        <a className={style.link} href={Resume} target="_blank">CV</a>
         <a  className={style.link} href="/blog">Blog</a>
         <a  className={style.link} href="#contact">Contact</a>
       </div>
