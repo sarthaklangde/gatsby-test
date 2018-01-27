@@ -11,7 +11,7 @@ export default ({ children }) =>
         <Link to="/" className={style.link}>Sarthak Langde</Link>
       </div>
       <div>
-        <Link className={style.link} to="/work/">My Work</Link>
+        <Link className={style.link} to="/work/">Work</Link>
         <a className={style.link} href={Resume} target="_blank">CV</a>
         <a  className={style.link} href="/blog">Blog</a>
         <a  className={style.link} href="#contact">Contact</a>
@@ -23,7 +23,7 @@ export default ({ children }) =>
         <div style={{ marginRight: `32px`}}><a href="mailto: sarthak.langde@gmail.com" >Email</a></div>
         <div style={{ marginRight: `32px`}}><a href="https://www.linkedin.com/in/sarthaklangde/" target="_blank">Linkedin</a></div>
         <div style={{ marginRight: `32px`}}><a href="https://github.com/sarthaklangde" target="_blank">Github</a></div>
-        <div style={{ }}><a href="https://angel.co/sarthak-langde" target="_blank">Angel</a></div>
+        <div style={{ }}><a href="https://angel.co/sarthaklangde" target="_blank">Angel</a></div>
       </div>
       
       
